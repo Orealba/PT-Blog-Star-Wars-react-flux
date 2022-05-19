@@ -1,0 +1,46 @@
+.cointainer{
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 50%;
+  
+}
+.cardOnly{
+    background-color:#b4b6b9  ;
+   justify-content: center;
+   text-align: center;
+   width: 600px;
+   height: 600px;
+   border-radius: 5%;
+   
+} 
+.theCard{
+    margin:  1%  ;
+   justify-content: center;
+} 
+
+.foto1{
+    width:520px;
+    height: 312px;
+    margin-left: 3%;
+    margin-top: 5%;
+    padding-bottom: 1%;
+}
+.foto2{
+    width:520px;
+    height: 315px;
+    margin-left: 3%;
+    margin-top: 4%;
+    padding-bottom: 1%;
+}
+.foto3{
+    width:520px;
+    height: 310px;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+p{
+    font-size: 30px;
+}
+.card-body{
+    margin-bottom: 1%;
+}

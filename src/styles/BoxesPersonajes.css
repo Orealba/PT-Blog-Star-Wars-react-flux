@@ -1,0 +1,38 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Brawler&family=Indie+Flower&family=Moo+Lah+Lah&family=Noto+Sans+JP:wght@100&family=Orelega+One&family=Prompt:wght@100;800&family=Roboto:wght@100;500&family=Square+Peg&display=swap');
+
+.theBox{
+    width: 800px;
+    height: 250px;
+  margin-left:  32%;
+  padding-left: 1%;
+ background-color: grey;
+}
+.boxText{
+    font-size: 23px;
+    padding-left: 20%;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+   margin-top: 19px;
+  
+}
+.fotosPersonajes{
+    width: 350px;
+    height: 250px;
+  object-fit: contain;
+}
+
+.buttonHeartMovies{
+  width: 35px;
+  height: 35px;
+  background-color: rgb(242, 5, 5);
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 90%;
+ 
+
+
+}

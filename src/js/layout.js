@@ -7,8 +7,14 @@ import { Demo } from "./views/demo";
 import { Single } from "./views/single";
 import injectContext from "./store/appContext";
 
-import { Navbar } from "./component/navbar";
+import { Navbar } from "./component/Navbar";
 import { Footer } from "./component/footer";
+import { Carousel } from "./component/Carousel";
+import { Cards } from "./component/Cards";
+import { Peliculas } from "./views/peliculas";
+import { Personajes } from "./views/personajes";
+import { Planets } from "./views/planets";
+import { MoreDetails } from "./views/MoreDetails";
 
 //create your first component
 const Layout = () => {
@@ -19,24 +25,39 @@ const Layout = () => {
 	return (
 		<div>
 			<BrowserRouter basename={basename}>
-				<ScrollToTop>
+				{/*<ScrollToTop>*/}
 					<Navbar />
+					
 					<Switch>
 						<Route exact path="/">
 							<Home />
 						</Route>
-						<Route exact path="/demo">
+						<Route exact path="/peliculas">
+							<Peliculas />
+						</Route>
+						<Route exact path="/peliculas/:position">
+							<MoreDetails />
+						</Route>
+						<Route exact path="/planetas">
+							<Planets />
+						</Route>
+						<Route exact path="/personajes">
+							<Personajes />
+						</Route>
+						</Switch>
+						{/*<Route exact path="/demo">
 							<Demo />
 						</Route>
 						<Route exact path="/single/:theid">
 							<Single />
 						</Route>
 						<Route>
-							<h1>Not found!</h1>
+						
 						</Route>
-					</Switch>
-					<Footer />
-				</ScrollToTop>
+					
+	<Footer />
+				</ScrollToTop>*/}
+				
 			</BrowserRouter>
 		</div>
 	);

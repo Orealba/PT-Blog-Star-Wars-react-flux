@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Brawler&family=Indie+Flower&family=Moo+Lah+Lah&family=Noto+Sans+JP:wght@100&family=Orelega+One&family=Prompt:wght@100;800&family=Roboto:wght@100;500&family=Square+Peg&display=swap');
+.botonImg1 { 
+    margin-top: 50px;
+    margin-left: 600px;
+    width: 750px;
+    height: 80px;
+    border: 0ch;
+    background-color: transparent;
+    font-size: 60px;
+    font-family: 'Orelega One', cursive;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px black;
+    position: absolute;
+    text-align:center;
+    
+}
+
+
+.botonImg1:hover { 
+    background-color: rgb(255 229 77);
+    color: white;
+}
+.imagenescarousel{
+width: 85%;
+margin-top: 1%;
+padding-left: 12%;
+   
+}
+
+.botonImg2{
+    margin-top: 550px;
+    margin-right: 8px;
+    margin-left: 3%;
+    padding-bottom: 5%;
+    width: 800px;
+    height: 160px;
+    border: 0ch;
+    background-color: transparent;
+    font-size: 60px;
+    font-family: 'Orelega One', cursive;
+    color: rgb(255, 255, 255);
+
+    -webkit-text-stroke: 2px black;
+
+  
+    position: absolute;
+    text-align:center;
+      
+}
+.botonImg2:hover { 
+    background-color:transparent;
+    color: white;
+}
+.botonImg3{
+    margin-top: 10px;
+    margin-left: 550px;
+    width: 800px;
+    height: 80px;
+    border: 0ch;
+    background-color:  transparent;
+    font-size: 50px;
+    font-family: 'Orelega One', cursive;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px black;
+    position: absolute;
+    text-align:center;
+    
+
+}

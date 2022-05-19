@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Brawler&family=Indie+Flower&family=Moo+Lah+Lah&family=Noto+Sans+JP:wght@100&family=Orelega+One&family=Prompt:wght@100;800&family=Roboto:wght@100;500&family=Square+Peg&display=swap');
+
+.theBoxFilms2{
+    width: 1200px;
+    height: 1325px;
+  margin-left: 20%;
+  padding: 1% 1% 1% 1%;
+  justify-content: center;
+  background-color: grey;
+  margin-top: 1%;
+}
+.boxTextfilm2{
+    font-size: 18px;
+    padding-left: 20%;
+    color: white;
+    text-align:justify;
+    line-height: 20px;
+    padding-top: 2%;
+}
+.tituloView2{
+    font-size: 50px;
+    color: aliceblue;
+    font-family: 'Orelega One', cursive;
+    margin-left: 40%;
+
+}
+
+.fotosPeliculas2{
+    width: 500px;
+    height: 360px;
+  object-fit: contain;
+  margin-top: 2%;
+  
+}
+
+
+
