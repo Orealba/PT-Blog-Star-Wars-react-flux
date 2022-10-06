@@ -7,7 +7,7 @@ import   "../../styles/boxes.css"
 
 export const Peliculas = () => {
     const { store,action} = useContext (Context);
-
+    console.log(store.Peliculas)
     return <div>
         <div className="row">
             <div className="col-md-12 ">

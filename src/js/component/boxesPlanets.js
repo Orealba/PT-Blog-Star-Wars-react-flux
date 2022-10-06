@@ -23,16 +23,25 @@ export const BoxesPlanets = (props) => {
                 <p className="boxText">Porbital Period: {props.porbital_period}</p>
                 <p className="boxText">Population: {props.population}</p>
                 <p className="boxText">Climate: {props.climate}</p>
-                 <button
-            onClick={(()=>
-                {
-                    actions.addFav(props.name,"planetas")
-                })}
+                {actions.isFav(props.name, "personajes") ? (
+              <button
+                onClick={() => {
+                  actions.deleteFav(props.name, "personajes");
+                }}
+                className="buttonDeleteMovies"
+              >
+                <i class="fas fa-trash"></i>
+              </button>
+            ) : (
+              <button
+                onClick={() => {
+                  actions.addFav(props.name, "personajes");
+                }}
                 className="buttonHeartMovies"
-
-            >
-            <i class="fas fa-heart "></i>
-            </button>
+              >
+                <i class="fas fa-heart "></i>
+              </button>
+            )}
             </div>
             </div>
            
